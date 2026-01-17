@@ -1,0 +1,5 @@
+{
+  "name": "VoltDrive Dynamic EV Dashboard",
+  "description": "A sophisticated, real-time electric vehicle charging dashboard featuring live metrics, AI-powered energy insights via Gemini, and premium light/dark mode aesthetics.",
+  "requestFramePermissions": []
+}

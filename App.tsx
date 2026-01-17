@@ -16,6 +16,7 @@ import {
   Wifi,
   WifiOff
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { ChargingMetrics, Theme } from './types';
 import MetricCard from './components/MetricCard';
 import BatteryStatus from './components/BatteryStatus';
@@ -307,6 +308,8 @@ const App: React.FC = () => {
         <p className="text-[10px] font-bold uppercase tracking-widest">Connected to: charging-ev-2026-default-rtdb.firebaseio.com</p>
         <p className="mt-2 text-[9px] font-medium text-slate-500">Authorized Session ID: {FIREBASE_TOKEN.substring(0, 8)}...</p>
       </footer>
+
+      <SpeedInsights />
     </div>
   );
 };
